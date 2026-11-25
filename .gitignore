@@ -1,0 +1,26 @@
+# Compiled binaries
+hop
+hop.exe
+build/linux/*
+!build/linux/.gitkeep
+build/windows/*
+!build/windows/.gitkeep
+
+# Go test and coverage artifacts
+*.test
+*.out
+coverage.txt
+
+# Local state and environment files
+.hop.json
+.hop.yaml
+.env
+
+# Editor and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
