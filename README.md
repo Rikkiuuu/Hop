@@ -23,34 +23,30 @@ brew install Rikkiuuu/tap/hop
 ### Shell Installer (macOS & Linux)
 
 ```sh
-curl -fsSL [https://raw.githubusercontent.com/Rikkiuuu/hop/main/install.sh](https://raw.githubusercontent.com/Rikkiuuu/hop/main/install.sh) | bash
+curl -fsSL https://raw.githubusercontent.com/Rikkiuuu/hop/main/install.sh | bash
 ```
 
 ### PowerShell Installer (Windows)
 
 ```powershell
-irm [https://raw.githubusercontent.com/Rikkiuuu/hop/main/install.ps1](https://raw.githubusercontent.com/Rikkiuuu/hop/main/install.ps1) | iex
+irm https://raw.githubusercontent.com/Rikkiuuu/hop/main/install.ps1 | iex
 ```
 
 ### Go Install
 
 ```sh
-go install [github.com/Rikkiuuu/hop/cmd/hop@latest](https://github.com/Rikkiuuu/hop/cmd/hop@latest)
+go install github.com/Rikkiuuu/hop/cmd/hop@latest
 ```
 
 
 ### Build from Source
 
 ```sh
-git clone [https://github.com/Rikkiuuu/hop.git](https://github.com/Rikkiuuu/hop.git)
+git clone. https://github.com/Rikkiuuu/hop.git
 cd hop
 go mod tidy
 make build-all
 ```
-
-- Linux: `build/linux/hop` (move to `/usr/local/bin/hop`)
-- macOS: `build/macos/amd64/hop` and `build/macos/arm64/hop` (move to `/usr/local/bin/hop`)
-- Windows: `build/windows/hop.exe` (add the folder to your system `PATH`)
 
 ## Shell Setup
 
